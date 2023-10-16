@@ -1,0 +1,12 @@
+&x_axis_steps=1&
+&y_ticks=5,10,5&
+&line=3,#87421F&
+&y_min=0&
+&y_max=20&
+&bg_colour=#C5CEDC&
+&pie=75,#505050,{display: none}&
+&values=32.7,14.7,6,5.5,4.2,4.2,3.7,3.4,25.7,0&
+&pie_labels=(US) United States of America,(RU) Russian Federation,(DE) Germany,(AR) Argentina,(CA) Canada,(BR) Brazil,(CN) China,(PE) Peru,Other,Unknown&
+&colours=#0033FF,#00B3FF,#00FFCC,#00FF4D,#CC00FF,#7A95FF,#FFD83D,#B3FF00,#FF0033,#FFCC00&
+&links=&
+&tool_tip=%23x_label%23%3Cbr%3E%23val%23%25&

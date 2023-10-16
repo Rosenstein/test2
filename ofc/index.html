@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PsychoStats - Stats Overview</title>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="author" content="Stormtrooper">
+	<meta name="keywords" content="PsychoStats Game Server Player Statistics Counter-Strike Gun Game Source Valve">
+<link rel="stylesheet" type="text/css" media="screen,print" href="https://psycho.servegame.com/themes/default-blue/../default/css/overall.css">
+<link rel="stylesheet" type="text/css" media="screen,print" href="https://psycho.servegame.com/themes/default-blue/../default/css/content.css">
+<link rel="stylesheet" type="text/css" media="screen,print" href="https://psycho.servegame.com/themes/default-blue/css/blue.css">
+<script src="https://raw.githubusercontent.com/Rosenstein/test2/main/ruffle.js"></script>
+</head>
+<body class="psychostats">
+<div id="ps-container">
+<div id="ps-page-container">
+<div id="ps-main">
+	<div id="ps-page-title">
+		<div class="inner">
+		<h1>PsychoStats Overview</h1>
+		<h2>&nbsp;</h2>
+		</div>
+	</div>
+<div id="ps-main-content" class="ps-page-overview">
+<div class="map-header">
+	
+	<div class="ofc-least"><h3>Country Breakdown</h3><script src="https://psycho.servegame.com/includes/ofc/js/swfobject.js"></script>
+<div id="flashcontent"></div>
+<object type="application/x-shockwave-flash" 
+width="100%" height="200">
+<param name="classid" value="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+<param name="allowScriptAccess" value="always">
+<param name="movie" value="open-flash-chart.swf?width=100%&height=200&data=./data-files/cc.txt">
+<param name="quality" value="high">
+<param name="bgcolor" value="#FFFFFF">
+<embed src="open-flash-chart.swf?data=./data-files/cc.txt" quality="high" bgcolor="#FFFFFF" width="100%" height="200" allowScriptAccess="always" 
+type="application/x-shockwave-flash" id="chart">
+</object></div>
+	<div class="ofc-most"><h3>Last 24 Hours</h3><div id="flashcontent_2"></div>
+<object type="application/x-shockwave-flash" 
+width="100%" height="200">
+<param name="classid" value="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+<param name="allowScriptAccess" value="always">
+<param name="movie" value="open-flash-chart.swf?width=100%&height=200&data=./data-files/h24.txt">
+<param name="quality" value="high">
+<param name="bgcolor" value="#FFFFFF">
+<embed src="open-flash-chart.swf?data=./data-files/h24.txt" quality="high" bgcolor="#FFFFFF" width="100%" height="200" allowScriptAccess="always" 
+type="application/x-shockwave-flash" id="chart_2">
+</object></div>
+	<div style="clear: both"></div>
+	<div class="ofc-full"><h3>Daily Connections</h3><div id="flashcontent_3"></div>
+<object type="application/x-shockwave-flash" 
+width="100%" height="200">
+<param name="classid" value="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+<param name="allowScriptAccess" value="always">
+<param name="movie" value="open-flash-chart.swf?width=100%&height=200&data=./data-files/day.txt">
+<param name="quality" value="high">
+<param name="bgcolor" value="#FFFFFF">
+<embed src="open-flash-chart.swf?data=./data-files/day.txt" quality="high" bgcolor="#FFFFFF" width="100%" height="200" allowScriptAccess="always" 
+type="application/x-shockwave-flash" id="chart_3">
+</object></div>
+</div>
+</div> 
+</div> 
+</div> 
+</div>
+<script>
+// When the page is loaded this is automatically called
+$(document).ready(function() {
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+        // Options affecting the whole page
+        "publicPath": undefined,
+        "polyfills": true,
+        // Options affecting files only
+        "autoplay": "on",
+        "unmuteOverlay": "hidden",
+        "backgroundColor": null,
+        "letterbox": "fullscreen",
+        "warnOnUnsupportedContent": true,
+        "contextMenu": "on",
+        "upgradeToHttps": window.location.protocol === "https:",
+        "maxExecutionDuration": {"secs": 15, "nanos": 0},
+        "logLevel": "error",
+    };
+});
+</script>
+</body></html>
